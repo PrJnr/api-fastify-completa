@@ -4,12 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "tsx watch src/server.ts"
   },
   "keywords": [],
   "author": "Paulo Ricardo F S Junior",
   "license": "ISC",
   "dependencies": {
+    "fastify": "^4.13.0",
     "typescript": "^4.9.5"
+  },
+  "devDependencies": {
+    "@types/node": "^18.14.2",
+    "tsx": "^3.12.3"
   }
 }
