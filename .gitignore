@@ -118,6 +118,8 @@ dist
 
 # Sqlite Local files
 .tmp/app.db
+db/app.db
+
 
 # TernJS port file
 .tern-port
