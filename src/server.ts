@@ -1,8 +1,13 @@
 import fastify from "fastify";
+import { knex } from "./database";
 
 const app = fastify();
 
-app.get("/", async () => {});
+app.get("/", async () => {
+  const documento = await knex("documentos").select("*");
+
+  return documento;
+});
 
 app
   .listen({

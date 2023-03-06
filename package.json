@@ -7,14 +7,12 @@
     "dev": "tsx watch src/server.ts",
     "lint": "eslint src --ext .ts --fix",
     "knex": "node --no-warnings --loader tsx ./node_modules/knex/bin/cli.js"
-
-
-    
   },
   "keywords": [],
   "author": "Paulo Ricardo F S Junior",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^16.0.3",
     "fastify": "^4.13.0",
     "knex": "^2.4.2",
     "sqlite3": "^5.1.4",
