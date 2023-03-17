@@ -16,7 +16,7 @@ export async function transactionsRoutes(app: FastifyInstance) {
         .select("*")
         .where("session_id", sessionId);
 
-      return documentos;
+      return { documentos };
     }
   );
 
