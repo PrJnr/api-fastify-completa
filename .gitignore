@@ -89,8 +89,8 @@ web_modules/
 out
 
 # Nuxt.js build / generate output
-.nuxt
-dist
+.build
+build
 
 # Gatsby files
 .cache/
@@ -120,6 +120,8 @@ dist
 # Sqlite Local files
 .tmp/app.db
 db/app.db
+./db/*.db
+db/*.db
 
 
 # TernJS port file
