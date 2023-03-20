@@ -122,6 +122,7 @@ build
 db/app.db
 ./db/*.db
 db/*.db
+db/test.db
 
 
 # TernJS port file
